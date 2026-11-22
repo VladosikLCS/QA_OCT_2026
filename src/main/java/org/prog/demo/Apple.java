@@ -1,6 +1,6 @@
 package org.prog.demo;
 
-public class Apple implements IPhone {
+public class Apple extends Phone implements IPhone {
     public void unlock(){
         System.out.println("Разблокировать с помощью Face ID");
     }

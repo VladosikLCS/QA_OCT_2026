@@ -1,6 +1,6 @@
 package org.prog.demo;
 
-    public class Android implements IPhone {
+    public class Android extends Phone implements IPhone {
         public void unlock(){
             System.out.println("Разблокировать отпечатком пальца");
         }
