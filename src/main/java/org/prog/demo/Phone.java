@@ -3,8 +3,8 @@ package org.prog.demo;
 import java.util.Objects;
 
 public class Phone {
-    String color;
-    String model;
+     public String color;
+     public String model;
 
     @Override
     public boolean equals(Object obj) {
